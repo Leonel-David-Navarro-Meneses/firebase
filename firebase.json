@@ -1,4 +1,11 @@
-{
+
+  {    
+    "storage": {
+      "rules": "storage.rules"
+    },
+  "firestore": {
+    "rules": "firestore.rules",
+  
   "hosting": {
     "public": "./public",
     "headers": [{
@@ -8,5 +15,7 @@
         "value" : "max-age=0"
       } ]
     }]
+    
+      }
+    }
   }
-}
